@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table style="border:1px solid black; font-family:Arial">
+        <tr>
+        <td>First Number</td>
+        <td><input type="text" ID="txtFirstNumber"/></td>
+       </tr>
+        <tr>
+    <td>Second Number</td>
+        <td><input type="text" ID="txtSecondNumber" /></td>
+        </tr>
+        <tr>
+        <td>Result</td>
+        <td><input type="text" ID="txtResult" /></td>
+        /tr>
+        <tr>
+        <td>
+        </td>
+        <td>
+        <input type="button" value="Add" id="btnAdd"/>
+        </td>
+        </tr>
+        </table>
+</body>
+<scripttype="text/javascript">
+    function addNumbers()
+    {
+    var firstNumber =parseInt(document.getElementById("txtFirstNumber").value);
+    var secondNumber = parseInt(document.getElementById("txtSecondNumber").value);
+    document.getElementById("txtResult").value = firstNumber + secondNumber;
+    }
+    </script>
+</html>

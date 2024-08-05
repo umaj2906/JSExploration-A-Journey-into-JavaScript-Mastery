@@ -42,3 +42,4 @@ console.log(a);
     // Array,object,function
 
 // }
+//Nan Not a number

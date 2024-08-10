@@ -1,0 +1,17 @@
+All JavaScript variables must be identified with unique names (identifiers).
+
+Names can contain letters, digits, underscores and dollar signs.(no space).
+bame must begins with letters
+names can also begins with $ and _.
+for example:
+$hlo and _num are applicable @hlo ans 1num is not applicable
+Names are case sensitive y and Y are different.
+for example:- let name & let Name are different variables
+
+Reserved words like JavaScript keywords can't be used as  names
+
+way of writing identifiers
+
+camelCase
+snake_case
+PascalCase
